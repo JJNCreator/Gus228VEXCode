@@ -4,6 +4,12 @@ task main()
 while (1 == 1)
 {
   motor[port1] = vexRT[Ch4];
+  if(vexRT.Btn6U) {
+  	motor[port2] = 127;
+  }
+  else {
+  	motor[port2] = -127;
+  }
 }
 
 
