@@ -6,15 +6,12 @@
 
 task main()
 {
-while (1 == 1)
-{
-  motor[port1] = vexRT[Ch4];
-  if(vexRT[Btn6U] == 1) {
-  	motor[port2] = 127;
-  }
-  else {
-  	motor[port2] = -127;
-  }
+while (1==1) {
+	motor[port1] = vexRT[Ch2] = vexRT[ch3];
+	motor[port2] = vexRT[Ch2] = vexRT[ch3];
+	motor[port9] = vexRT[Ch2] = vexRT[ch3];
+	motor[port10] = vexRT[Ch2] = vexRT[ch3];
 }
-`
+
+
 }
