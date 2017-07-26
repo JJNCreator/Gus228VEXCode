@@ -7,16 +7,6 @@
 task main()
 {
 while (1==1) {
-	//motor[port1] = vexRT[Ch2] + vexRT[Ch3];
-	//motor[port2] = vexRT[Ch2] + vexRT[Ch3];
-	//motor[port9] = vexRT[Ch2] + vexRT[Ch3];
-	//motor[port10] = vexRT[Ch2] + vexRT[Ch3];
-
-	//motor[port1] = vexRT[Ch3 + Ch2];
-	//motor[port2] = vexRT[Ch2 + Ch3];
-	//motor[port9] = vexRT[Ch2 + Ch3];
-	//motor[port10] = vexRT[Ch2 + Ch3];
-
 	motor[port1] = vexRT[Ch2];
 	motor[port2] = vexRT[Ch2];
 	motor[port9] = vexRT[Ch3] * -1;
