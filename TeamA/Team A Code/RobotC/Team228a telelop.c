@@ -7,10 +7,12 @@
 task main()
 {
 	while(1==1){
-		motor(backright)=vexRT[Ch2];
-		motor(backleft)=vexRT[Ch3];
-		motor(frontright)=vexRT[Ch2];
-		motor(frontleft)=vexRT[Ch3];
+		//Drivetrain
+		motor[backright] = vexRT[Ch2];
+		motor[backleft] = vexRT[Ch3];
+		motor[frontright] = vexRT[Ch2];
+		motor[frontleft] = vexRT[Ch3];
+		///////////////////////////////
 	}
 
 
